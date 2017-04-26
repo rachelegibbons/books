@@ -1,0 +1,30 @@
+* {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.books ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bookOne {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.bookTwo {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.books img {
+  width: 40%;
+  vertical-align: baseline;
+  bottom: 60px;
+}
+
+.books a {
+  vertical-align: baseline;
+}
