@@ -1,12 +1,23 @@
 * {
-  width: 100%;
   margin: 0 auto;
+}
+
+.books {
+  display: inline-block;
+  margin: 0 auto;
+  align-items: baseline;
 }
 
 .books ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.books li {
+  display: list-item;
+  padding: 20px 20px;
+  vertical-align: baseline;
 }
 
 .bookOne {
@@ -19,9 +30,13 @@
   grid-column: 2;
 }
 
+.bookThree {
+  grid-row: 1;
+  grid-column: 3;
+}
+
 .books img {
-  width: 40%;
-  vertical-align: baseline;
+  width: 100%;
   bottom: 60px;
 }
 
